@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">膳食记录与评估系统</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">设置</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+            completions."
+    </string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Strings related to register -->
+    <string name="action_register">Register</string>
+    <string name="action_register_short">Register</string>
+    <string name="action_register_next_page_short">next</string>
+    <string name="description_rg_gender">Gender</string>
+    <string name="error_date_format">Date format error, please select new one.</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="prompt_dob">Date of birth(Clickable)</string>
+    <string name="prompt_height">Height(centimeter)</string>
+    <string name="prompt_weight">Weight(kilogram)</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_register_fragment1">Personal Information</string>
+    <string name="title_register_fragment2">Lifestyle</string>
+    <string name="tv_register_cm">cm</string>
+    <string name="tv_register_kg">kg</string>
+    <string name="tv_register_free_time">In my free time I\'m</string>
+    <string name="tv_register_job_kind">Kinds of job</string>
+    <string name="tv_register_sleep_time">Hours of sleep per night</string>
+    <string-array name="register_jobs">
+        <item>No job</item>
+        <item>Office work</item>
+        <item>Standing - light work</item>
+        <item>Standing - average work</item>
+        <item>Standing - heavy work</item>
+    </string-array>
+    <string-array name="register_active">
+        <item>Not very active (excluding sports activities)</item>
+        <item>Quite active (excluding sports activities)</item>
+        <item>Very active (excluding sports activities)</item>
+    </string-array>
+    <string name="register_dialog_title">My Goal</string>
+    <string name="register_dialog_bmi">Your standard weight is %1$.2f kg. According to the BMI your ideal weight is between %2$.2f - %3$.2f kg. </string>
+    <string name="register_dialog_hint">Setting your goal weight</string>
+
+    <!-- Strings related to DiaryDishes -->
+    <string name="menu_assess">Assess</string>
+    <string name="title_activity_diary">DiaryActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="already_eaten">&#160;calories eaten</string>
+    <string name="could_eaten_front">You can still eat&#160;</string>
+    <string name="could_eaten_behind">&#160;calories</string>
+    <string name="diary_carb">% Carbs</string>
+    <string name="diary_protein">% Protein</string>
+    <string name="diary_fat">% Fats</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_add">Food List</string>
+
+    <!-- Strings related to Add Dishes-->
+    <string name="add_dialog_title">Add this meal</string>
+    <string name="add_dialog_positive">OK</string>
+    <string name="add_dialog_negative">CANCEL</string>
+    <string name="prompt_dialog_quality">Quality</string>
+    <string-array name="dialog_quality">
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="dialog_unit">
+        <item>gram</item>
+        <item>kilogram</item>
+        <item>individual</item>
+    </string-array>
+    <string-array name="dialog_time">
+        <item>Breakfast</item>
+        <item>Snacks - Morning</item>
+        <item>Lunch</item>
+        <item>Snacks - Afternoon</item>
+        <item>Dinner</item>
+        <item>Snacks - Night</item>
+    </string-array>
+
+    <!--&lt;!&ndash; Assess strings &ndash;&gt;-->
+    <!--<string name="DBI_kind_comments">评价</string>-->
+    <!--<string name="DBI_kind_comments_summarize">该膳食模式总体上呈摄入不足的趋势，存在低度的摄入不足问题，整体膳食情况较适宜</string>-->
+    <!--<string name="DBI_kind_comments_transit">根据各项评分表的分值</string>-->
+    <!--<string name="DBI_kind_comments_content1">奶类（-1分）、饮水量（-7分），表示摄入不足，其中饮水量尤为明显</string>-->
+    <!--<string name="DBI_kind_comments_content2">奶类（-1分）、饮水量（-7分），表示摄入不足，其中饮水量尤为明显</string>-->
+
+    <!--<string name="DBI_kind_suggestions">建议</string>-->
+    <!--<string name="DBI_kind_suggestions1">1. 丰富膳食的种类与数量，膳食多样化</string>-->
+    <!--<string name="DBI_kind_suggestions2">2. 增加杂粮和薯类食物的摄入，保证均衡膳食</string>-->
+    <!--<string name="DBI_kind_suggestions3">3. 适当禽肉的摄入</string>-->
+    <!--<string name="DBI_kind_suggestions4">4. 适当增加奶类及其制品的摄入，增加钙类的来源</string>-->
+
+    <string name="assess_energy_nutrition">三大营养素供能比例</string>
+    <string name="assess_energy_time">三餐热量比例</string>
+    <string name="assess_ntrt_normal">正常</string>
+    <string name="assess_ntrt_high">偏高</string>
+    <string name="assess_ntrt_low">不足</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+    <!-- Screen margins -->
+    <dimen name="large_margin">32dp</dimen>
+    <dimen name="middle_margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="fewer_margin">4dp</dimen>
+    <dimen name="mini_margin">2dp</dimen>
+    <dimen name="details_webview_margin">348dp</dimen>
+
+    <!-- Widget size.-->
+    <dimen name="btn_fab_size">64dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="radio_img_btn_size">88dp</dimen>
+    <dimen name="item_recyclerview_img_size">108dp</dimen>
+    <dimen name="item_recyclerview_img_btn_size">48dp</dimen>
+    <dimen name="toorbar_height">64dp</dimen>
+    <dimen name="app_bar_height">300dp</dimen>
+    <dimen name="tab_layout_height">48dp</dimen>
+    <dimen name="short_edittext_width">64dp</dimen>
+    <dimen name="middle_spinner_width">108dp</dimen>
+    <dimen name="dialog_img_size">256dp</dimen>
+    <dimen name="view_color_block_size">8dp</dimen>
+
+    <!-- Widget constitution padding. -->
+    <dimen name="large_padding">32dp</dimen>
+    <dimen name="middle_padding">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+
+    <!-- Widget constitution size. -->
+    <dimen name="middle_card_view_corner_radius">8dp</dimen>
+    <dimen name="small_card_view_corner_radius">4dp</dimen>
+    <dimen name="middle_elevation_size">8dp</dimen>
+    <dimen name="small_elevation_size">4dp</dimen>
+
+    <!-- Font size. -->
+    <dimen name="middle_title_font_size">14pt</dimen>
+    <dimen name="large_content_font_size">12pt</dimen>
+    <dimen name="middle_content_font_size">10pt</dimen>
+    <dimen name="small_content_font_size">8pt</dimen>
+
+    <!-- WaveSideBarView Dimens-->
+    <dimen name="textSize_sidebar">10sp</dimen>
+    <dimen name="large_textSize_sidebar">32sp</dimen>
+    <dimen name="textSize_sidebar_choose">12sp</dimen>
+    <dimen name="textSize_sidebar_padding">20sp</dimen>
+    <dimen name="radius_sidebar">20dp</dimen>
+    <dimen name="ball_radius_sidebar">24dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

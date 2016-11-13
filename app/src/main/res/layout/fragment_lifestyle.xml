@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue3"
+    tools:context=".ui.fragment.LifestyleFragment">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_personal_info"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/middle_margin"
+        app:cardCornerRadius="@dimen/middle_card_view_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/middle_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/title_register_fragment2"
+                android:textSize="@dimen/middle_title_font_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_padding"
+                android:gravity="start"
+                android:text="@string/tv_register_sleep_time"
+                android:textSize="@dimen/middle_content_font_size" />
+
+            <Spinner
+                android:id="@+id/spinner_register_sleep_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/middle_margin"
+                android:layout_marginEnd="@dimen/middle_margin"
+                android:layout_marginStart="@dimen/middle_margin"
+                android:textSize="@dimen/middle_content_font_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_padding"
+                android:gravity="start"
+                android:text="@string/tv_register_job_kind"
+                android:textSize="@dimen/middle_content_font_size" />
+
+            <Spinner
+                android:id="@+id/spinner_register_job_kind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/middle_margin"
+                android:layout_marginEnd="@dimen/middle_margin"
+                android:layout_marginStart="@dimen/middle_margin"
+                android:entries="@array/register_jobs"
+                android:textSize="@dimen/middle_content_font_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/middle_margin"
+                android:layout_marginEnd="@dimen/middle_margin"
+                android:layout_marginStart="@dimen/middle_margin"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_register_days"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/middle_content_font_size" />
+
+                <Spinner
+                    android:id="@+id/spinner_register_hours"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/middle_content_font_size" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_padding"
+                android:gravity="start"
+                android:text="@string/tv_register_free_time"
+                android:textSize="@dimen/middle_content_font_size" />
+
+            <Spinner
+                android:id="@+id/spinner_register_free_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/middle_margin"
+                android:layout_marginEnd="@dimen/middle_margin"
+                android:layout_marginStart="@dimen/middle_margin"
+                android:entries="@array/register_active"
+                android:textSize="@dimen/middle_content_font_size" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

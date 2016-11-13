@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings related to login -->
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_field_required">请输入</string>
+    <string name="error_invalid_email">请输入正确的邮箱</string>
+    <string name="error_invalid_password">密码太短，请重新设置</string>
+    <string name="error_incorrect_password">密码错误，请重新输入</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+            completions."
+    </string>
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Strings related to register -->
+    <string name="action_register">注册</string>
+    <string name="action_register_short">Register</string>
+    <string name="action_register_next_page_short">next</string>
+    <string name="description_rg_gender">性别</string>
+    <string name="error_date_format">日期格式错误，请重新输入！</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="prompt_dob">出生日期(Clickable)</string>
+    <string name="prompt_height">身高(厘米)</string>
+    <string name="prompt_weight">体重(千克)</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_register_fragment1">个人信息</string>
+    <string name="title_register_fragment2">生活习惯</string>
+    <string name="tv_register_cm">cm</string>
+    <string name="tv_register_kg">kg</string>
+    <string name="tv_register_free_time">非工作时间的运动强度</string>
+    <string name="tv_register_job_kind">工作种类</string>
+    <string name="tv_register_sleep_time">睡眠时间</string>
+    <string-array name="register_jobs">
+        <item>无工作</item>
+        <item>脑力劳动</item>
+        <item>轻度体力劳动</item>
+        <item>中度体力劳动</item>
+        <item>高强度体力劳动</item>
+    </string-array>
+    <string-array name="register_active">
+        <item>较少 (包括运动量)</item>
+        <item>一般 (包括运动量)</item>
+        <item>较多 (包括运动量)</item>
+    </string-array>
+    <string name="register_dialog_title">目标</string>
+    <string name="register_dialog_bmi">你的标准体重是 %1$.2f kg. 根据 BMI 标准你的正常体重范围是 %2$.2f - %3$.2f kg. </string>
+    <string name="register_dialog_hint">设置你的目标体重</string>
+
+    <!-- Strings related to DiaryDishes -->
+    <string name="menu_assess">膳食评估</string>
+    <string name="title_activity_diary">饮食记录</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">添加质量</string>
+    <string name="already_eaten">&#160;卡路里已被摄入</string>
+    <string name="could_eaten_front">你还能摄入&#160;</string>
+    <string name="could_eaten_behind">&#160;卡路里</string>
+    <string name="diary_carb">% Carbs</string>
+    <string name="diary_protein">% Protein</string>
+    <string name="diary_fat">% Fats</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_add">食物列表</string>
+
+    <!-- Strings related to Add Dishes-->
+    <string name="add_dialog_title">添加该菜品</string>
+    <string name="add_dialog_positive">确认</string>
+    <string name="add_dialog_negative">取消</string>
+    <string name="prompt_dialog_quality">质量</string>
+    <string-array name="dialog_quality">
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="dialog_unit">
+        <item>g</item>
+        <item>kg</item>
+        <item>个</item>
+    </string-array>
+    <string-array name="dialog_time">
+        <item>早餐</item>
+        <item>上午加餐</item>
+        <item>午餐</item>
+        <item>下午加餐</item>
+        <item>晚餐</item>
+        <item>夜宵</item>
+    </string-array>
+
+    <!-- Assess strings -->
+    <string name="DBI_kind_comments">评价</string>
+    <string name="DBI_kind_comments_summarize">该膳食模式总体上%1$s，存在%2$s%3$s问题，整体膳食情况%4$s </string>
+    <string name="DBI_kind_comments_transit">根据各项评分表的分值</string>
+    <string name="DBI_kind_comments_content1"> %1$s（ %2$d分）</string>
+    <string name="DBI_kind_comments_content2">表示%1$s，其中%2$s尤为明显</string>
+    <string name="DBI_kind_comments_intake_much">摄入过量</string>
+    <string name="DBI_kind_comments_intake_less">摄入不足</string>
+
+    <string name="DBI_kind_suggestions">建议</string>
+    <string name="DBI_kind_suggestions1">1. 丰富膳食的种类与数量，膳食多样化</string>
+    <string name="DBI_kind_suggestions2">2. 增加%1$s的摄入，保证均衡膳食</string>
+    <string name="DBI_kind_suggestions3">3. 适当%1$s的摄入</string>
+    <string name="DBI_kind_suggestions4">4. 适当增加奶类及其制品的摄入，增加钙类的来源</string>
+    <string name="DBI_kind_suggestions5">5. 饮足够的水，适量运动，保持健康的生活方式</string>
+
+    <string name="assess_energy_nutrition">三大营养素供能比例</string>
+    <string name="assess_energy_time">三餐热量比例</string>
+    <string name="assess_ntrt_normal">正常</string>
+    <string name="assess_ntrt_high">偏高</string>
+    <string name="assess_ntrt_low">不足</string>
+</resources>
